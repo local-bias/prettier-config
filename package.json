@@ -1,8 +1,11 @@
 {
   "name": "@konomi-app/prettier-config",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "prettier.config.mjs",
+  "version": "1.1.0",
+  "main": "prettier.config.cjs",
+  "exports": {
+    "require": "./prettier.config.js",
+    "import": "./prettier.config.mjs"
+  },
   "author": "Adachi Keiichiro",
   "license": "MIT",
   "description": "Prettier config for general use",
