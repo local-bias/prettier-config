@@ -1,7 +1,7 @@
 {
   "name": "@konomi-app/prettier-config",
-  "version": "1.1.0",
-  "main": "prettier.config.cjs",
+  "version": "1.1.2",
+  "main": "prettier.config.js",
   "exports": {
     "require": "./prettier.config.js",
     "import": "./prettier.config.mjs"
